@@ -12,6 +12,30 @@ body{
     padding-bottom: 10px;
     background-image: url("./Images/bg-cream.jpg");
 }
+.home{
+    position: fixed;
+    font-family: "Bebas Neue", sans-serif;
+    border-radius: 5px;
+    top: 550px;
+    margin-left: 95%;
+    z-index: 1;
+    border: 2px solid black;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid rgb(24, 24, 201);
+    border-radius: 50%;
+    font-size: 24px;
+    background: transparent;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.privacy{
+    display: flex;
+    justify-content: center;
+}
 #heading{
     width: 100%;
     display: flex;
