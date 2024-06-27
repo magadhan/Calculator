@@ -16,3 +16,11 @@ function calculate(){
         display.value = "Error";
     }
 }
+
+function turnNegative(){
+    display.value = display.value * -1;
+}
+
+function percentage(){
+    display.value = display.value / 100;
+}
